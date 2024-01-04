@@ -1,0 +1,255 @@
+* {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 60px;
+    width: 150px;
+
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+}
+
+/*.boundary
+{
+    border:2px solid transparent;
+}*/
+.boundary:hover {
+    border: 1px solid white;
+}
+
+.del {
+    margin-left: 13px;
+    color: #CCCCCC;
+    font-size: 0.9rem;
+}
+
+.loc-ind {
+    display: flex;
+}
+
+.search {
+    display: flex;
+    background-color: aqua;
+    width: 550px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.op {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 55px;
+    text-align: center;
+    border: none;
+}
+
+.search-icon {
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 186, 10);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    /*color:white;*/
+    border: none;
+    font-size: 25px;
+}
+
+.input {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.lang {
+    display: flex;
+}
+
+.lang1 {
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+
+.signin-list {
+
+    color: white;
+    background-color: black;
+    font-size: 17px;
+    border: none;
+}
+
+.cart i {
+    display: inline;
+    font-size: 30px;
+}
+
+/*.............................................*/
+.panel {
+    background-color: rgba(24, 23, 23, 0.836);
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+
+}
+
+.options p {
+    display: inline;
+    margin-left: 15px;
+    font-size: 0.9rem;
+}
+
+.options {
+    width: 70%;
+    display: inline;
+}
+
+.deals {
+    font-size: 1rem;
+    font-weight: 1000;
+}
+
+.himage {
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.msg {
+
+    height: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    font-size: 0.9rem;
+
+}
+
+.msg a {
+    color: blue;
+}
+
+.msg p {
+    margin-bottom: 20px;
+}
+
+.border {
+
+    height: 400px;
+    width: 23%;
+    margin-top: 7px;
+    background-color: white;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 153, 255, 0.158);
+    justify-content: space-evenly;
+}
+
+.box-style {
+    height: 250px;
+    background-size: cover;
+    width: 90%;
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box-content {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 0, 140, 0.651);
+}
+
+.show {
+    margin-top: 1rem;
+    color: blue
+}
+
+.foot-panel1 {
+    background-color: rgba(20, 19, 27, 0.959);
+    color: white;
+    font-size: 0.9rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-panel2 {
+
+    background-color: #1c1b24e0;
+    color: white;
+    height: 350px;
+    display: block;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    margin-top: 5px;
+    display: block;
+    color: #dddddd;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.foot-panel3 {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foot-image {
+    height: 70px;
+    width: 120px;
+    background-size: cover;
+
+}
+
+.foot-last {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.589);
+    color: antiquewhite
+}
